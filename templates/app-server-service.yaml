@@ -6,9 +6,9 @@ metadata:
     io.kompose.service: app-server
 spec:
   ports:
-    - port: 8090
+    - port: 9000
       protocol: TCP
-      targetPort: 8090
+      targetPort: 8080
       name: http
   selector:
     io.kompose.service: app-server
