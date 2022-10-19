@@ -25,7 +25,7 @@ spec:
         io.kompose.service: app-server
     spec:
       containers:
-        - image: "{{ .Values.app-server.image.repository }}:{{ .Values.app-server.image.tag }}"
+        - image: "{{ .Values.appServer.image.repository }}:{{ .Values.appServer.image.tag }}"
           name: app-server
           ports:
             - containerPort: 8090

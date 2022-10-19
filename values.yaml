@@ -85,12 +85,12 @@ tolerations: []
 
 affinity: {}
 
-app-server:
+appServer:
   image:
     repository: tommydevv1/demo-api
     tag: latest
 
-app-web:
+appWeb:
   image:
     repository: tommydevv1/cafe-web
     tag: latest
