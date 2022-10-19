@@ -10,6 +10,8 @@ branch: main
 
 # Helm Commands
 ```
+$ helm repo add 3-tier-app-repo https://doomokun.github.io/3-tier-app-chart
+
 $ helm package .
 $ helm repo index .
 $ helm repo index . --url https://doomokun.github.io/3-tier-app-chart
