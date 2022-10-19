@@ -25,7 +25,7 @@ spec:
         io.kompose.service: app-web
     spec:
       containers:
-        - image: tommydevv1/cafe-web:latest
+        - image: "{{ .Values.app-web.image.repository }}:{{ .Values.app-web.image.tag }}"
           name: app-web
           ports:
             - containerPort: 3000
