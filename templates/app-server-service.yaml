@@ -5,6 +5,7 @@ metadata:
   labels:
     io.kompose.service: app-server
 spec:
+  type: {{ .Values.appServer.service.type }}
   ports:
     - port: 9000
       protocol: TCP

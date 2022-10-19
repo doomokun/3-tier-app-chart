@@ -5,6 +5,7 @@ metadata:
   labels:
     io.kompose.service: app-web
 spec:
+  type: {{ .Values.appServer.service.type }}
   selector:
     io.kompose.service: app-web
   ports:
