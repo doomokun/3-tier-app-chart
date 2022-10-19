@@ -3,17 +3,17 @@ entries:
   3-tier-app-chart:
   - apiVersion: v2
     appVersion: 1.16.2
-    created: "2022-10-19T13:45:30.234095+08:00"
+    created: "2022-10-19T16:53:13.647184+08:00"
     description: A Helm chart for Kubernetes
-    digest: 109d3da9a1edd4ac9c53f29902e70fb764fb612753bb36ff5bd290089dcb0d18
+    digest: 13f421c7253560ce87d32d1e208b5ca9d3da764b64c855aab8446f82b489fbf4
     name: 3-tier-app-chart
     type: application
     urls:
-    - https://doomokun.github.io/3-tier-app-chart/3-tier-app-chart-0.1.3.tgz
-    version: 0.1.3
+    - https://doomokun.github.io/3-tier-app-chart/3-tier-app-chart-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.2
-    created: "2022-10-19T13:45:30.232547+08:00"
+    created: "2022-10-19T16:53:13.645344+08:00"
     description: A Helm chart for Kubernetes
     digest: e377bb4de73fa4d6966e9e5eb2e61ab08c5a05708e07106c6fff79bb9d51aec0
     name: 3-tier-app-chart
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://doomokun.github.io/3-tier-app-chart/3-tier-app-chart-0.1.2.tgz
     version: 0.1.2
-generated: "2022-10-19T13:45:30.229927+08:00"
+generated: "2022-10-19T16:53:13.643537+08:00"
