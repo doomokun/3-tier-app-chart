@@ -11,8 +11,7 @@ appWeb:
     tag: latest
   service:
     type: ClusterIP
-  env:
-    apiRoot:
+  apiRoot:
 
 appIngress:
   status: disabled

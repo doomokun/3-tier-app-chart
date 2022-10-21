@@ -29,7 +29,7 @@ spec:
           name: app-web
           env:
             - name: VITE_API_ROOT
-              value: {{ .Values.appWeb.env.apiRoot }}
+              value: {{ .Values.appWeb.apiRoot }}
           ports:
             - containerPort: 3000
           resources: {}
