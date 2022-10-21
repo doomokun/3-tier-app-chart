@@ -31,7 +31,7 @@ spec:
             - containerPort: 8080
           envFrom:
             - configMapRef:
-              name: app-server-config
+                name: app-server-config
           resources: {}
       restartPolicy: Always
 status: {}
