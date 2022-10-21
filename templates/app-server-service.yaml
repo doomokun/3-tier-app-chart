@@ -8,8 +8,9 @@ spec:
   type: {{ .Values.appServer.service.type }}
   ports:
     - port: 9000
-      protocol: TCP
       targetPort: 8080
+      nodePort: 30316
+      protocol: TCP
       name: http
   selector:
     io.kompose.service: app-server
