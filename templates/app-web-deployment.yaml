@@ -27,6 +27,9 @@ spec:
       containers:
         - image: "{{ .Values.appWeb.image.repository }}:{{ .Values.appWeb.image.tag }}"
           name: app-web
+          env:
+            - name: VITE_API_ROOT
+              value: {{ .Values.appWeb.env.apiRoot }}
           ports:
             - containerPort: 3000
           resources: {}
