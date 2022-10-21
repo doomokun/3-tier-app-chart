@@ -30,15 +30,9 @@ spec:
           name: app-db
           ports:
             - containerPort: 3306
-          env:
-            - name: MYSQL_DATABASE
-              value: api-demo-db-dev
-            - name: MYSQL_PASSWORD
-              value: 1234qwer
-            - name: MYSQL_ROOT_PASSWORD
-              value: root1
-            - name: MYSQL_USER
-              value: user
+          envFrom:
+            - secretRef:
+              name: app-db-{{ .Values.global.environment }}
           resources: {}
           volumeMounts:
             - mountPath: /var/lib/mysql

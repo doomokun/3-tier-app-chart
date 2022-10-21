@@ -14,3 +14,9 @@ appWeb:
 
 appIngress:
   status: disabled
+
+appDatabase:
+  name: api-demo-db
+
+global:
+  environment: dev

@@ -28,10 +28,10 @@ spec:
         - image: "{{ .Values.appServer.image.repository }}:{{ .Values.appServer.image.tag }}"
           name: app-server
           ports:
-            - containerPort: 8090
-          env:
-            - name: spring.datasource.url
-              value: "jdbc:mysql://app-db/api-demo-db-dev"
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+              name: app-server-config
           resources: {}
       restartPolicy: Always
 status: {}
