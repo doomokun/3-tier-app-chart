@@ -1,6 +1,9 @@
 # 3-tier-app-chart
 
+![alt text](./arc.jpg)
+
 # Chart pages
+
 pages: https://doomokun.github.io/3-tier-app-chart
 
 repo: https://github.com/doomokun/3-tier-app-chart
@@ -9,6 +12,7 @@ git: git@github.com:doomokun/3-tier-app-chart.git
 branch: main
 
 # Helm Commands
+
 ```
 $ helm repo add 3-tier-app-repo https://doomokun.github.io/3-tier-app-chart
 
